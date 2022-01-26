@@ -1,0 +1,145 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.navbar {
+    display: flex;
+    background-color: rgb(226, 223, 223);
+}
+.carousel-ppal {
+    margin-top: 1rem;
+}
+.carousel-inner img {
+    width: 100%;
+}
+.card {
+    margin: 1rem;
+}
+
+
+/* header */
+.logo {
+    width: 20rem;
+    height: 10rem;
+}
+@media screen and (max-width: 481px) {
+    .logo { 
+        width: 10rem;
+        height: 5rem;
+    }
+}
+.navbar-brand {
+    display: flex;
+}
+@media screen and (max-width: 481px) {
+    .navbar-brand {
+        display: flex;
+    }
+}
+.nav-link {
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+.navbar-brand {
+    font-size: 5rem;
+}
+
+.flex {
+    display: flex;
+}
+@media screen and (max-widht: 481px) {
+    .flex {
+        display: flexbox
+    }
+}
+/* Seccion index */
+
+.p-index {
+    font-size: 5rem;
+}
+
+
+/* Fin seccion index */
+
+/* Seccion Turismo Pista */
+
+.titulos-bio {
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+@media screen and (max-width: 481px) {
+    .titulos-bio {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+.card-title {
+    font-size: 3rem;
+}
+@media screen and (max-width: 481px) {
+    .card-title {
+        font-size: 1,5rem;
+    }
+}
+.card-text, .card-text-1 {
+    font-size: 2rem;
+}
+.logo-tp {
+    width: 400px;
+    height: 400px;
+}
+.card-text, .card-title {
+    text-align: center;
+}
+
+
+
+/* FOOTER */
+/* Ubicacion logo en Header */
+.logo-footer {
+    width: 10rem;
+    display: flex;
+}
+.footer {
+    background-color: rgb(226, 223, 223);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 15px;
+}
+.titulo-footer-uno, .titulo-footer {
+    font-size: 30px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.contacto-whatsapp {
+    text-align: left;
+    display: flex;
+    justify-content: left;
+}
+.contact-text {
+    text-align: center;
+    display: flex;
+}
+.style {
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-contact {
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-width: 481px) {
+    .logo-footer, .titulo-footer-uno, .mapa {
+        display: none;
+    }
+    .style {
+       align-items: center;
+    }
+    .redes-sociales, .footer-text {
+        align-items: center;
+        }
+}
+/* FIN FOOTER */
